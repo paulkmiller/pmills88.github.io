@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    width: 100%;
+}
+
+.header {
+  background-color: #F0F0F0;
+  border: 1px solid #CCC;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header h1{
+  float: left;
+}
+
+.himg-cont{
+  float: right;
+}
+
+.himg {
+  height: auto;
+  width: auto;
+  max-height: 35px;
+  max-width: 35px;
+  margin: 0 10px 0 10px;
+}
+
+.name {
+  color: #3084cc;
+  font-size: .8em;
+  font-weight: lighter;
+}
+
+.about, .portfolio, .interests {
+  font-size: .5em;
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- ALL THINGS GRID --*/
+
+.grid-container *{
+    box-sizing: border-box; 
+}
+
+.grid-container{
+    width: 100%;
+    height: 100%;      
+}
+
+[class*='col-'] {
+    float: left; 
+    min-height: 2em; 
+    width: 16.66%; 
+    padding: 12px; 
+}
+
+/*-- Clearfix hack -- */ 
+.row:before, 
+.row:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.col-1   { width: 16.66%; }
+.col-2   { width: 33.33%; }
+.col-3   { width: 50%;    }
+.col-4   { width: 66.66%; }
+.col-5   { width: 83.33%; }
+.col-6   { width: 100%;   }
+
+
+/*-- Content allignment --*/
+[class*='col-'] p {
+ text-align: center; 
+}
+
+/*-- GRID BE DONE YO --*/
+
+/*-- Sticky Footer Code Start, courtesy of http://ryanfait.com/sticky-footer/ --*/
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -3em;
+}
+
+.footer, .push {
+    height: 3em;
+}
+
+.footer h5 {
+    text-align: center;
+    padding-top: 1em;
+    color: black;
+    height: 3em;
+}
+
+
+/*-- Media Queries --*/
+
+@media all and (max-width:1200px){
+    .col-1    { width: 33.33%;  }
+    .col-2    { width: 50%;     }
+    .col-3    { width: 100%;    } 
+    .col-4    { width: 50%;     }
+    .col-5    { width: 100%;    }
+    .col-6    { width: 100%; height: 50%;   }
+    .row .col-2:last-of-type{
+        width: 100%; 
+    }
+    .row .col-5 ~ .col-1{ 
+        width: 100%; 
+    }
+}
