@@ -14,14 +14,18 @@ html, body {
   position: fixed;
   top: 0;
   width: 100%;
+  padding-left: 2em;
 }
 
 .header h1{
   float: left;
+  padding: 12px;
 }
 
 .himg-cont{
   float: right;
+  padding: 12px;
+  padding-right: 2em;
 }
 
 .himg {
@@ -32,17 +36,26 @@ html, body {
   margin: 0 10px 0 10px;
 }
 
-.name {
+
+
+.h-name {
   color: #3084cc;
   font-size: .8em;
   font-weight: lighter;
 }
 
-.about, .portfolio, .interests {
+.h-about, .h-portfolio, .h-interests {
   font-size: .5em;
   font-weight: lighter;
+  color: rgba(0,0,0,.8);
+  padding-left: 10px;
 }
 
+.splash{
+  height: 100%;
+  width: 100%;
+  display: relative;
+}
 
 
 
@@ -75,7 +88,6 @@ html, body {
     float: left; 
     min-height: 2em; 
     width: 16.66%; 
-    padding: 12px; 
 }
 
 /*-- Clearfix hack -- */ 
