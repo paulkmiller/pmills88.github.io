@@ -9,12 +9,12 @@ html, body {
 }
 
 .header {
-  background-color: #F0F0F0;
+  background-color: #FFF;
   border: 1px solid #CCC;
   position: fixed;
   top: 0;
   width: 100%;
-  padding-left: 2em;
+  padding-left: 3em;
 }
 
 .header h1{
@@ -25,7 +25,7 @@ html, body {
 .himg-cont{
   float: right;
   padding: 12px;
-  padding-right: 2em;
+  padding-right: 3em;
 }
 
 .himg {
@@ -46,9 +46,9 @@ html, body {
 
 .h-about, .h-portfolio, .h-interests {
   font-size: .5em;
-  font-weight: lighter;
   color: rgba(0,0,0,.8);
   padding-left: 10px;
+  font-weight: lighter;
 }
 
 .splash{
@@ -122,14 +122,16 @@ html, body {
 }
 
 .footer, .push {
-    height: 3em;
+    height: 1.5em;
 }
 
-.footer h5 {
+.footer p {
     text-align: center;
-    padding-top: 1em;
     color: black;
-    height: 3em;
+}
+
+.footer :nth-child(2) {
+  margin-bottom: 1.5em;
 }
 
 
