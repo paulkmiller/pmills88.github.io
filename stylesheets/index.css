@@ -7,17 +7,22 @@ html, body {
   width: 100%; }
 
 .header {
-  background-color: #F0F0F0;
+  background-color: #EEE;
   border: 1px solid #CCC;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  padding-left: 3em; }
 
 .header h1 {
-  float: left; }
+  float: left;
+  padding: .4em; }
 
 .himg-cont {
-  float: right; }
+  float: right;
+  padding: .9em;
+  padding-right: 3em;
+  background-color: #D0D0D0; }
 
 .himg {
   height: auto;
@@ -26,14 +31,37 @@ html, body {
   max-width: 35px;
   margin: 0 10px 0 10px; }
 
-.name {
+.nimg {
+  float: left;
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 100px; }
+
+.himg:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  zoom: 1.2; }
+
+.h-name {
   color: #3084cc;
   font-size: .8em;
   font-weight: lighter; }
 
-.about, .portfolio, .interests {
+.h-about, .h-portfolio, .h-interests {
   font-size: .5em;
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 10px;
   font-weight: lighter; }
+
+.splash {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  display: block; }
 
 /*-- ALL THINGS GRID --*/
 .grid-container * {
@@ -46,8 +74,7 @@ html, body {
 [class*='col-'] {
   float: left;
   min-height: 2em;
-  width: 16.66%;
-  padding: 12px; }
+  width: 16.66%; }
 
 /*-- Clearfix hack -- */
 .row:before,
@@ -87,13 +114,15 @@ html, body {
   margin: 0 auto -3em; }
 
 .footer, .push {
-  height: 3em; }
+  height: 1.5em;
+  margin-top: 3em; }
 
-.footer h5 {
+.footer p {
   text-align: center;
-  padding-top: 1em;
-  color: black;
-  height: 3em; }
+  color: black; }
+
+.footer :nth-child(2) {
+  margin-bottom: 1.5em; }
 
 /*-- Media Queries --*/
 @media all and (max-width: 1200px) {
