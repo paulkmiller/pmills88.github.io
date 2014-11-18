@@ -11,16 +11,24 @@
 
 html, body {
     height: 100%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     width: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+body {
+    background-image: url("../images/imagination.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 45em;
 }
 
 .header {
+  top: 0;
   background-color: #EEE;
   border: 1px solid #CCC;
   position: fixed;
-  top: 0;
-  width: 100%;
   padding-left: 3em;
 }
 
@@ -52,13 +60,6 @@ html, body {
   max-width: 100px;
 }
 
-
-.himg:hover{
-  @include transitions(.2s ease-in-out);
-  zoom: 1.2;
-}
-
-
 .h-name {
   color: #3084cc;
   font-size: .8em;
@@ -68,8 +69,9 @@ html, body {
 .h-about, .h-portfolio, .h-interests {
   font-size: .5em;
   color: rgba(0,0,0,.8);
-  padding-left: 10px;
+  padding-left: 1em;
   font-weight: lighter;
+  padding-bottom: 1em;
 }
 
 .splash{
@@ -80,8 +82,9 @@ html, body {
   display: block;
 }
 
-
-
+.about{
+  background-color: white;
+}
 
 
 
@@ -146,18 +149,28 @@ html, body {
 
 .footer, .push {
     height: 1.5em;
-    margin-top: 3em;
+    padding-top: 1.5em;
+    clear: both;
+}
+
+.footer{
+  background-color: #2c3e50;
 }
 
 .footer p {
     text-align: center;
-    color: black;
+    color: white;
+    background-color: #2c3e50;
 }
 
 .footer :nth-child(2) {
-  margin-bottom: 1.5em;
+  margin-top: .3em;
+  padding-bottom: 1.5em;
 }
 
+.heart {
+  color: red;
+}
 
 /*-- Media Queries --*/
 
