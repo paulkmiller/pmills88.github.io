@@ -21,7 +21,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 45em;
+    padding-top: 100%;
 }
 
 .header {
@@ -71,8 +71,8 @@ body {
   color: rgba(0,0,0,.8);
   padding-left: 1em;
   font-weight: lighter;
-  padding-bottom: 1em;
   text-decoration: none;
+
 }
 
 .splash{
@@ -85,13 +85,16 @@ body {
 
 .about{
   background-color: white;
+  margin-top: 70px;
 }
 
 .portfolio{
   background-color: white;
 }
 
-
+.interests{
+  background-color: white;
+}
 
 
 
