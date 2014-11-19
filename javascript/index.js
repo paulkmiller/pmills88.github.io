@@ -1,7 +1,7 @@
 $(function() {
     $("[href^='#']").on("click", function( e ) {  
         $("body, html").animate({ 
-            scrollTop: $( $(this).attr('href') ).offset("70px").top 
+            scrollTop: $( $(this).attr('href') ).offset().top-$('.header').height()
         }, 600); 
         e.preventDefault();
     });    

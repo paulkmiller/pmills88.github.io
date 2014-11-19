@@ -27,7 +27,7 @@ body {
 
 .himg-cont {
   float: right;
-  padding: .9em;
+  padding: 1em;
   padding-right: 3em;
   background-color: #D0D0D0; }
 
@@ -48,14 +48,16 @@ body {
 .h-name {
   color: #3084cc;
   font-size: .8em;
-  font-weight: lighter; }
+  font-weight: lighter;
+  z-index: 10; }
 
 .h-about, .h-portfolio, .h-interests {
   font-size: .5em;
   color: rgba(0, 0, 0, 0.8);
   padding-left: 1em;
   font-weight: lighter;
-  text-decoration: none; }
+  text-decoration: none;
+  z-index: 10; }
 
 .splash {
   height: auto;
