@@ -92,7 +92,6 @@ body {
 .portfolio{
   background-color: white;
   position: absolute;
-  height: 60%;
   margin: 10.1% 0% 0 6%;
   border-radius: 5px;
 }
@@ -123,6 +122,9 @@ body {
   line-height: 24px;
   padding: 2%;
   text-transform: uppercase;
+  // white-space: nowrap;
+  // overflow: hidden;         <--- set to media query lataz
+  // text-overflow: ellipsis;  
 }
 
 .portfolio-background{
