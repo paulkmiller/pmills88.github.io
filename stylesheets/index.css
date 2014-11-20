@@ -42,7 +42,8 @@ body {
 .h-name {
   color: #3084cc;
   font-size: .8em;
-  font-weight: lighter; }
+  font-weight: lighter;
+  text-decoration: none; }
 
 .h-about, .h-portfolio, .h-interests {
   font-family: inherit;
@@ -59,7 +60,7 @@ body {
 .about1 {
   background-color: white;
   position: absolute;
-  margin: 10.2% 0% 0 5.7%;
+  margin: 10.2% 0% 0 6%;
   padding: 2%;
   border-radius: 10px; }
 
