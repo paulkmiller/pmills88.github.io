@@ -55,7 +55,7 @@ body {
   transition: color .4s ease-in-out; }
 
 .h-about:hover, .h-portfolio:hover, .h-skills:hover {
-  color: #3AB074; }
+  color: #16a085; }
 
 .about1 {
   background-color: rgba(255, 255, 255, 0.7);
@@ -76,8 +76,16 @@ body {
 .portfolio {
   background-color: white;
   position: absolute;
-  margin: 10.1% 0% 0 6%;
   border-radius: 5px; }
+
+.cirrus {
+  margin: 10.1% 0% 0 10%; }
+
+.charity {
+  margin: 10.1% 0% 0 40%; }
+
+.tbd {
+  margin: 10.1% 0% 0 70%; }
 
 .portfolio img {
   height: auto;
@@ -106,11 +114,7 @@ body {
 
 .portfolio-background {
   height: 100%;
-  background-color: #F0F5F2;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover; }
+  background-color: #F0F5F2; }
 
 .skills {
   background-color: white;
