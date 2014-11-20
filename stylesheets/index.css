@@ -13,7 +13,8 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 60%; }
+  padding-top: 60%;
+  margin-top: 65px; }
 
 .header {
   top: 0;
@@ -46,6 +47,7 @@ body {
   text-decoration: none; }
 
 .h-about, .h-portfolio, .h-skills {
+  vertical-align: middle;
   font-family: inherit;
   font-size: .5em;
   color: rgba(0, 0, 0, 0.8);
@@ -64,6 +66,10 @@ body {
   padding: 2%;
   border-radius: 5px; }
 
+.about1 p {
+  font-size: 1.2em;
+  letter-spacing: 2px; }
+
 .about-background {
   height: 100%;
   background-color: white;
@@ -79,13 +85,13 @@ body {
   border-radius: 5px; }
 
 .cirrus {
-  margin: 10.1% 0% 0 10%; }
+  margin: 10.3% 0% 0 10%; }
 
 .charity {
-  margin: 10.1% 0% 0 40%; }
+  margin: 10.3% 0% 0 40%; }
 
 .tbd {
-  margin: 10.1% 0% 0 70%; }
+  margin: 10.3% 0% 0 70%; }
 
 .portfolio img {
   height: auto;
@@ -100,7 +106,8 @@ body {
   font: 700 11px 'Montserrat', sans-serif;
   letter-spacing: 2px;
   margin: 10% 0 8%;
-  padding: 15px 60px;
+  text-align: center;
+  padding: 15px 0;
   text-transform: uppercase;
   width: 100%; }
 
