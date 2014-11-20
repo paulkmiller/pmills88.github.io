@@ -1,23 +1,15 @@
-
 $(function() {
-  $("[href^='#']").on("click", function( e ) {  
-    $("body, html").animate({ 
-      scrollTop: $( $(this).attr('href') ).offset().top-$('.header').height()-$('.header').outerHeight()
-    }, 800); 
-    e.preventDefault();
-  });    
+  $("[href^='#']").on("click", function( e ) {  
+
+	  var target = $(this).attr('href');
+	  var scrollTop = $( target ).offset().top-$('.header').height()-$('.header').outerHeight();
+
+	  if ( target =='#home'){
+	     scrollTop = 0;}
+	  $("body, html").animate({
+	          scrollTop: scrollTop
+	      }, 800);
+	  
+	  e.preventDefault();
+  });
 });
-
-
-// $(function(){
-// 	$("[href^='#']").on("click", function( e ){
-// 		$("body, html").animate({
-// 			scrollTop: $( $(this).attr('href') ).offset().top
-// 		}, 800);
-// 		e.preventDefault();
-// 	});
-// });
-
-// x - a - b
-// set z = a + b
-// x - z
