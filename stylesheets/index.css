@@ -19,7 +19,10 @@ body {
   background-color: #EEE;
   border: 1px solid #CCC;
   position: fixed;
-  padding-left: 3em; }
+  padding-left: 3em;
+  margin: 2% 0 0 5%;
+  border-radius: 10px;
+  z-index: 10; }
 
 .header h1 {
   float: left;
@@ -28,15 +31,14 @@ body {
 .himg-cont {
   float: right;
   padding: 1em;
-  padding-right: 3em;
-  background-color: #D0D0D0; }
+  padding-right: 3em; }
 
 .himg {
   height: auto;
   width: auto;
-  max-height: 35px;
-  max-width: 35px;
-  margin: 0 10px 0 10px; }
+  max-height: 2em;
+  max-width: 2em;
+  margin: 0 1em 0 .5em; }
 
 .nimg {
   float: left;
@@ -59,6 +61,13 @@ body {
   text-decoration: none;
   z-index: 10; }
 
+.h-about:hover, .h-portfolio:hover, .h-interests:hover {
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  color: #e67e22; }
+
 .splash {
   height: auto;
   width: auto;
@@ -66,15 +75,33 @@ body {
   max-width: 100%;
   display: block; }
 
-.about {
+.about1 {
   background-color: white;
-  margin-top: 70px; }
+  position: absolute;
+  margin: 3% 0% 0 5.7%;
+  padding: 2%;
+  border-radius: 5px; }
+
+.about2 {
+  background-color: white;
+  padding: 10% 0 20% 0;
+  margin-bottom: 10%;
+  background-image: url("../images/starwars.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
 
 .portfolio {
-  background-color: white; }
+  background-color: white;
+  margin: 3% 0 0 0;
+  border-radius: 5px; }
 
 .interests {
-  background-color: white; }
+  background-color: white;
+  margin: 3% 0 0 0;
+  border-radius: 5px; }
 
 /*-- ALL THINGS GRID --*/
 .grid-container * {
@@ -97,21 +124,33 @@ body {
   clear: both; }
 
 .col-1 {
-  width: 16.66%; }
+  width: 10; }
 
 .col-2 {
-  width: 33.33%; }
+  width: 20; }
 
 .col-3 {
-  width: 50%; }
+  width: 30%; }
 
 .col-4 {
-  width: 66.66%; }
+  width: 40%; }
 
 .col-5 {
-  width: 83.33%; }
+  width: 50%; }
 
 .col-6 {
+  width: 60%; }
+
+.col-7 {
+  width: 70%; }
+
+.col-8 {
+  width: 80%; }
+
+.col-9 {
+  width: 90%; }
+
+.col-10 {
   width: 100%; }
 
 /*-- Content allignment --*/
@@ -147,28 +186,3 @@ body {
   color: red; }
 
 /*-- Media Queries --*/
-@media all and (max-width: 1200px) {
-  .col-1 {
-    width: 33.33%; }
-
-  .col-2 {
-    width: 50%; }
-
-  .col-3 {
-    width: 100%; }
-
-  .col-4 {
-    width: 50%; }
-
-  .col-5 {
-    width: 100%; }
-
-  .col-6 {
-    width: 100%;
-    height: 50%; }
-
-  .row .col-2:last-of-type {
-    width: 100%; }
-
-  .row .col-5 ~ .col-1 {
-    width: 100%; } }
