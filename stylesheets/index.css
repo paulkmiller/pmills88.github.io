@@ -77,7 +77,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  padding-bottom: 65px; }
 
 .portfolio {
   background-color: white;
@@ -98,7 +99,7 @@ body {
   width: auto;
   max-height: 5em;
   max-width: 5em;
-  margin: 10% 0 0 35%; }
+  margin: 10% 0 0 36%; }
 
 .portfolio h4 {
   background: #3AB074;
@@ -121,7 +122,8 @@ body {
 
 .portfolio-background {
   height: 100%;
-  background-color: #F0F5F2; }
+  background-color: #F0F5F2;
+  padding-bottom: 65px; }
 
 .skills {
   background-color: white;
