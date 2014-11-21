@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 $(function() {
   $("[href^='#']").on("click", function( e ) {  
 
@@ -12,4 +14,16 @@ $(function() {
 
 	  e.preventDefault();
   });
+});
+
+// ScrollMagic Code
+$(function($) {
+var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $(window).height()*2}});
+
+// build scenes
+new ScrollScene({triggerElement: "#parallax"})
+		.setTween(TweenMax.from("#parallax > div", 1, {top: "-80%", ease: Linear.easeNone}))
+		.addTo(controller)
+	});
+
 });
