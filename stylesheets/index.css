@@ -56,6 +56,10 @@ body {
   text-decoration: none;
   transition: color .4s ease-in-out; }
 
+.email {
+  color: #d35400;
+  text-decoration: none; }
+
 .h-about:hover, .h-portfolio:hover, .h-skills:hover {
   color: #d35400; }
 
