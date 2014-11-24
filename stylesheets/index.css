@@ -51,15 +51,11 @@ body {
   vertical-align: middle;
   font-family: inherit;
   font-size: .5em;
-  color: rgba(0, 0, 0, 0.8);
+  color: #b0b0b0;
   margin-left: 5%;
   font-weight: lighter;
   text-decoration: none;
-  transition: all .5s ease-in-out; }
-
-.email {
-  color: #d35400;
-  text-decoration: none; }
+  transition: all .25s ease-in-out; }
 
 .h-about:hover, .h-portfolio:hover, .h-skills:hover {
   color: #d35400; }
@@ -74,6 +70,10 @@ body {
 .about1 p {
   font-size: 1.2em;
   letter-spacing: 4px; }
+
+.email {
+  color: #d35400;
+  text-decoration: none; }
 
 .about-background {
   height: 100%;
