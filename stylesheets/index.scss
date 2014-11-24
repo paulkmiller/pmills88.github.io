@@ -18,13 +18,23 @@ html, body {
 }
 
 body {
+  // background-image: url("../images/imagination.jpg");
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-attachment: fixed;
+  // background-size: cover;
+  // padding-top: 60%;
+  // margin-top: 65px;
+}
+
+.splash{
   background-image: url("../images/imagination.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 60%;
-  margin-top: 65px;
+  height: 100%;
+  width: 100%;
 }
 
 .header {
@@ -97,7 +107,7 @@ body {
 
 .about1 p{
   font-size: 1.2em;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 .email{
