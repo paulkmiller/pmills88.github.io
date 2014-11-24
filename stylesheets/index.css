@@ -7,14 +7,14 @@ html, body {
   width: 100%;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
-body {
+.splash {
   background-image: url("../images/imagination.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 60%;
-  margin-top: 65px; }
+  height: 100%;
+  width: 100%; }
 
 .header {
   top: 0;
@@ -69,7 +69,7 @@ body {
 
 .about1 p {
   font-size: 1.2em;
-  letter-spacing: 4px; }
+  letter-spacing: 2px; }
 
 .email {
   color: #d35400;
