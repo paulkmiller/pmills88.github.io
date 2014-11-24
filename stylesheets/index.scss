@@ -70,21 +70,16 @@ body {
   vertical-align: middle;
   font-family: inherit;
   font-size: .5em;
-  color: rgba(0,0,0,.8);
+  color: #b0b0b0;
   margin-left: 5%;
   font-weight: lighter;
   text-decoration: none;
-  transition: all .5s ease-in-out;
+  transition: all .25s ease-in-out;
   // &:hover{
   //   color:#d35400;
   //   border-top: 1px solid gray;
   //   border-bottom: 1px solid gray;
   // }
-}
-
-.email{
-  color:#d35400;
-  text-decoration: none;
 }
 
 .h-about:hover, .h-portfolio:hover, .h-skills:hover{
@@ -103,6 +98,11 @@ body {
 .about1 p{
   font-size: 1.2em;
   letter-spacing: 4px;
+}
+
+.email{
+  color:#d35400;
+  text-decoration: none;
 }
 
 .about-background{
