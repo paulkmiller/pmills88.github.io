@@ -17,16 +17,6 @@ html, body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
-// body {
-//   background-image: url("../images/imagination.jpg");
-//   background-repeat: no-repeat;
-//   background-position: center center;
-//   background-attachment: fixed;
-//   background-size: cover;
-//   padding-top: 60%;
-//   margin-top: 65px;
-// }
-
 .splash{
   background-image: url("../images/imagination.jpg");
   background-repeat: no-repeat;
@@ -75,7 +65,7 @@ html, body {
 
 }
 
-.h-about, .h-portfolio, .h-skills {
+.h-who, .h-portfolio, .h-skills {
   // @include transition(.5s ease-in-out);
   vertical-align: middle;
   font-family: inherit;
@@ -92,12 +82,12 @@ html, body {
   // }
 }
 
-.h-about:hover, .h-portfolio:hover, .h-skills:hover{
+.h-who:hover, .h-portfolio:hover, .h-skills:hover{
   color:#d35400;
 }
 
 
-.about1{
+.who1{
   background-color: rgba(255,255,255,.8);
   position: absolute;
   margin: 10.1% 0% 0 10%;
@@ -105,7 +95,7 @@ html, body {
   border-radius: 5px;
 }
 
-.about1 p{
+.who1 p{
   font-size: 1.2em;
   letter-spacing: 2px;
 }
@@ -115,7 +105,7 @@ html, body {
   text-decoration: none;
 }
 
-.about-background{
+.who-background{
   height: 100%;
   background-image: url("../images/PMLandscape.jpg");
   background-repeat: no-repeat;
@@ -198,26 +188,24 @@ html, body {
   transition: all 0.25s ease-in-out;
 }
 
-// .mouse-icon::before{
-//   content:'SCROLL DOWN';
-//   width:100px;
-//   display:block;
-//   margin:0 0 0 50%;
-//   position:absolute;
-//   left:50%;
-//   text-align:center;
-//   font:1em 'Dosis', sans-serif;
-//   color:#fff;
-//   font-weight:700;
-//   opacity:0;
-//   -webkit-transform: scaleX(0);
-//   -moz-transform: scaleX(0);
-//   -o-transform: scaleX(0);
-//   transform: scaleX(0);
-//   -moz-transition: all 0.3s ease-in-out;
-//   -webkit-transition: all 0.3s ease-in-out;
-//   transition: all 0.3s ease-in-out;
-// }
+.mouse-icon::before{
+  content:'SCROLL DOWN';
+  margin-left: -52px;
+  width:125px;
+  display:block;
+  position:absolute;
+  font:1em 'Dosis', sans-serif;
+  color:#fff;
+  font-weight:700;
+  opacity:0;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
 .mouse-icon:hover{
   opacity:1;
