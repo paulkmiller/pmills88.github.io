@@ -48,22 +48,21 @@ html, body {
   text-decoration: none; }
 
 .h-who, .h-what, .h-where, .h-why {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
   vertical-align: middle;
   font-family: inherit;
   font-size: .5em;
   color: #b0b0b0;
   margin-left: 4%;
   font-weight: lighter;
-  text-decoration: none; }
-  .h-who:hover, .h-what:hover, .h-where:hover, .h-why:hover {
-    color: #d35400;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray; }
+  text-decoration: none;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out; }
+
+.h-who:hover, .h-what:hover, .h-where:hover, .h-why {
+  color: #d35400; }
 
 .whoinfo {
   background-color: rgba(255, 255, 255, 0.8);
