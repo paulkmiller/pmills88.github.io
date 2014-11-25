@@ -1,5 +1,5 @@
 $(function() {
-  $("[href^='#']").on("click", function( e ) {  
+  $("[href^='#']").on("click", function(e) {  
 
 	  var target = $(this).attr('href');
 	  var scrollTop = $( target ).offset().top-$('.header').height()-$('.header').outerHeight();
