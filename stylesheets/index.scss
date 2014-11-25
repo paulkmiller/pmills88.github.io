@@ -1,10 +1,10 @@
-@mixin transition($transition){
-  -webkit-transition: $transition;
-  -moz-transition: $transition;
-  -ms-transition: $transition;
-  -o-transition: $transition;
-  transition: $transition;
-}
+// @mixin transition($transition){
+//   -webkit-transition: $transition;
+//   -moz-transition: $transition;
+//   -ms-transition: $transition;
+//   -o-transition: $transition;
+//   transition: $transition;
+// }
 
 * {
   margin: 0;
@@ -66,7 +66,7 @@ html, body {
 }
 
 .h-who, .h-what, .h-where, .h-why {
-  @include transition(all .5s ease-in-out);
+  // @include transition(all .5s ease-in-out);
   vertical-align: middle;
   font-family: inherit;
   font-size: .5em;
@@ -74,17 +74,21 @@ html, body {
   margin-left: 4%;
   font-weight: lighter;
   text-decoration: none;
-  // transition: all .25s ease-in-out;
-  &:hover{
-    color:#d35400;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-  }
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  // &:hover{
+  //   color:#d35400;
+  //   border-top: 1px solid gray;
+  //   border-bottom: 1px solid gray;
+  // }
 }
 
-// .h-who:hover, .h-what:hover, .h-where:hover, .h-why{
-//   color:#d35400;
-// }
+.h-who:hover, .h-what:hover, .h-where:hover, .h-why{
+  color:#d35400;
+}
 
 
 .whoinfo{
