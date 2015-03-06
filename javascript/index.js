@@ -7,11 +7,18 @@ $(function() {
 
 	  if (target == '#top'){
 	     scrollTop = 0;}
+
+
 	  $("body, html").animate({
 	          scrollTop: scrollTop
 	      }, 800);
 	  e.preventDefault();
-  });
 
-  // hidden mousey message
+  });
 });
+
+$(document).ready(function() {
+  $(".mouse-icon").on("click", function() {  
+    $(".mouse-icon:before").append("<style>mouse-icon:before{content:'SO LAZY';}</style>");
+  }); 
+});	

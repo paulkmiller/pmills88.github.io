@@ -129,7 +129,7 @@ html, body {
 
 .mouse-icon:hover:before{
   margin-top:-40px;
-  opacity:1;
+  opacity:1; 
   @include transform(scaleX(1));
 }
 
@@ -319,7 +319,7 @@ html, body {
 }
 
 .heart {
-  color: red; // DUH
+  color: red;
 }
 
 /*-- Media Queries --*/
